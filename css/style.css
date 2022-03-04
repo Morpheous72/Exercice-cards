@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Outfit';
 }
 /* Barre de navigation */
 .navbar {
@@ -29,10 +30,7 @@
   text-decoration: none;
   color: ivory;
 }
-/* .main {
-    display: flex;
-    flex-direction: column;    
-} */
+
 .main .container {
   width: 100%;
   height: 100vh;
@@ -92,12 +90,12 @@
   width: 30rem;
   height: 50rem;
   border-radius: 25px;
-  background-color: #hsl(216, 10%, 19%);
+  background-color: hsl(216, 50%, 16%);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  box-shadow: 0 0 50px 10px hsl(215, 32%, 27%);
+  box-shadow: 0 0 80px 50px hsl(220, 32%, 27%);
 }
 
 #two .nft .image-nft img {
@@ -132,6 +130,7 @@
   display: flex;
   align-items: center;
   font-size: 1.5em;
+  font-weight: bold;
   color: hsl(178, 100%, 50%);
 }
 #two .nft .part-two .price-days .price-nft img {
@@ -151,7 +150,7 @@
 #two .nft .part-two .line {
   width: 25rem;
   height: 1px;
-  background-color: rgba(191, 191, 191, 0.188);
+  background-color: hsl(215, 32%, 27%);
 }
 #two .nft .part-two .avatar {
   display: flex;
