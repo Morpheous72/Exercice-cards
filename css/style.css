@@ -1,27 +1,203 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Barre de navigation */
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+.navbar nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar nav ul li {
+  list-style: none;
+  font-size: 2em;
+  margin: 0 50px;
+}
+.navbar nav ul li a {
+  text-decoration: none;
+  color: ivory;
+}
+/* .main {
+    display: flex;
+    flex-direction: column;    
+} */
+.main .container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* premiere carte */
+#one {
+  background-color: hsl(212, 45%, 89%);
+}
+#one .qr {
+  width: 25rem;
+  height: 40rem;
+  border-radius: 25px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#one .qr .image-qr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#one .qr .image-qr img {
+  margin-top: 25px;
+  width: 22em;
+  border-radius: 15px;
+  display: flex;
+}
+#one .qr .text-qr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#one .qr .text-qr h4 {
+  padding: 35px;
+  text-align: center;
+  font-size: 1.7rem;
+  color: hsl(218, 44%, 22%);
+}
+#one .qr .text-qr p {
+  padding: 0 35px 55px 35px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: hsl(212, 45%, 89%);
+}
+/* deuxieme carte */
+#two {
+  background-color: hsl(217, 54%, 11%);
+}
+#two .nft {
+  width: 30rem;
+  height: 50rem;
+  border-radius: 25px;
+  background-color: #hsl(216, 10%, 19%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 0 50px 10px hsl(215, 32%, 27%);
 }
 
-.main {
-    background: lightgray;
+#two .nft .image-nft img {
+  margin-top: 25px;
+  width: 25em;
+  border-radius: 15px;
+  display: flex;
 }
-
-.card {
-    width: 500px;
-    height: 500px;
-    background-color: deeppink;
+#two .nft .image-nft img a:hover {
+  background-color: hsl(178, 100%, 50%);
+  z-index: 3;
 }
-
-.nft {
-    width: 100px;
-    height: 100px;
+#two .nft .part-two{
+    margin: 0 4rem 2rem 5rem;
 }
-
+#two .nft .part-two .titre-nft a {
+  padding: 2rem;
+  font-size: 1.3rem;
+  color: white;
+}
+#two .nft .part-two .text-nft h3 {
+    font-size: 25px;
+  color: rgba(191, 191, 191, 0.619);
+}
+#two .nft .part-two .price-days {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#two .nft .part-two .price-days .price-nft {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  color: hsl(178, 100%, 50%);
+}
+#two .nft .part-two .price-days .price-nft img {
+  width: 1.1rem;
+  margin-right: 10px;
+}
+#two .nft .price-days .days {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  color: rgba(191, 191, 191, 0.619);
+}
+#two .nft .price-days .days img {
+  width: 1.6rem;
+  margin-right: 10px;
+}
+#two .nft .part-two .line {
+  width: 25rem;
+  height: 1px;
+  background-color: rgba(191, 191, 191, 0.188);
+}
+#two .nft .part-two .avatar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25px;
+}
+#two .nft .part-two .avatar img {
+  width: 3rem;
+  margin-right: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#two .nft .part-two .avatar p {
+  font-size: 1.5rem;
+  color: rgba(191, 191, 191, 0.619);
+}
+#two .nft .part-two .avatar-name {
+  font-size: 1.5rem;
+  color: #fff;
+}
+/* troisieme carte */
+#three {
+  background-color: hsl(225, 100%, 94%);
+}
+#three .bg-three {
+  width: 100%;
+  position: absolute;
+}
+#three .order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 .order {
-    width: 100px;
-    height: 100px;
 }
-
-.qr {}
+/* pied de page */
+footer > p {
+  width: 100%;
+  height: 50px;
+  color: aliceblue;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
