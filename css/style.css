@@ -3,19 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-.main{
+
+.main {
     background: lightgray;
 }
-.card{
-width: 500px;
-height: 500px;
-}
-.nft{
 
+.card {
+    width: 500px;
+    height: 500px;
 }
-.order{
 
+.nft {
+    width: 100px;
+    height: 100px;
 }
-.qr{
-    
-}
+
+.order {}
+
+.qr {}
