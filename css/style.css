@@ -4,6 +4,9 @@
   box-sizing: border-box;
   
 }
+body{
+  position: relative;
+}
 /* Barre de navigation */
 .navbar {
   width: 100%;
@@ -310,6 +313,6 @@ footer > p {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
 }
