@@ -280,7 +280,6 @@ justify-content: center;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 700;
-    display: inline-block;
     text-align: center;    
     background-color: hsl(245, 75%, 52%);    
     border-radius: 1rem;    
@@ -297,7 +296,7 @@ justify-content: center;
     text-align: center;
     background-color: #fff; 
     color: hsl(224, 23%, 55%);   
-    border-radius: 1rem;
+    
 }
 #three .order .summary .button-order .payment a, #three .order .summary .button-order .cancel a{
     text-align: center;
